@@ -9,4 +9,36 @@
     <image:image><image:loc>https://ronaldoternus.com.br/img/ronaldo-ternus-empreendesc-2026.webp</image:loc></image:image>
     <image:image><image:loc>https://ronaldoternus.com.br/img/ronaldo-ternus-palestra-cultura-moveleira.webp</image:loc></image:image>
   </url>
+  <url>
+    <loc>https://ronaldoternus.com.br/artigos/</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://ronaldoternus.com.br/artigos/voce-nao-precisa-de-mais-leads/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <image:image>
+      <image:loc>https://ronaldoternus.com.br/img/ronaldo-ternus-palestra-cultura-moveleira.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ronaldoternus.com.br/artigos/crescimento-sem-estrutura-gera-instabilidade/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <image:image>
+      <image:loc>https://ronaldoternus.com.br/img/ronaldo-ternus-treinamento-em-sala.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ronaldoternus.com.br/artigos/networking-nao-e-trocar-cartoes/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <image:image>
+      <image:loc>https://ronaldoternus.com.br/img/ronaldo-ternus-turma-xclub.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ronaldoternus.com.br/artigos/prestador-de-servico-precisa-pensar-como-empresario/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <image:image>
+      <image:loc>https://ronaldoternus.com.br/img/ronaldo-ternus-proclass.webp</image:loc>
+    </image:image>
+  </url>
 </urlset>

@@ -41,7 +41,7 @@
    "mainEntity": {
     "@id": "https://ronaldoternus.com.br/#ronaldo"
    },
-   "dateModified": "2026-11-11T09:00:00-03:00"
+   "dateModified": "2026-11-13T19:00:00-03:00"
   },
   {
    "@type": "WebSite",
@@ -78,7 +78,10 @@
     "Mercado moveleiro",
     "Móveis planejados",
     "Investimentos imobiliários",
-    "Networking empresarial"
+    "Networking empresarial",
+    "Pós-venda",
+    "Gestão do tempo",
+    "Posicionamento"
    ],
    "founder": [
     {
@@ -140,6 +143,11 @@
    "award": [
     "Gold Member, BNI",
     "Millionaire Member, BNI Carvoeiro"
+   ],
+   "subjectOf": [
+    {"@type": "WebPage", "name": "Ronaldo Ternus no DNA Empreendedor, da Jovem Pan News", "url": "https://ronaldoternus.com.br/midia/dna-empreendedor-jovem-pan/"},
+    {"@type": "WebPage", "name": "Criativy Talk, episódio 1: posicionamento", "url": "https://ronaldoternus.com.br/midia/criativy-talk-ep-01-posicionamento/"},
+    {"@type": "WebPage", "name": "Criativy Talk, episódio 2: gestão do tempo", "url": "https://ronaldoternus.com.br/midia/criativy-talk-ep-02-gestao-do-tempo/"}
    ],
    "sameAs": [
     "https://www.linkedin.com/in/ronaldoternus",
@@ -436,6 +444,17 @@ a.card:hover .url svg{transform:translate(2px,-2px)}
   .contact-box{border-radius:24px}
   .channels strong{font-size:15.5px}
 }
+/* artigos recentes */
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.rc{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden;transition:transform .3s var(--ease),box-shadow .3s var(--ease)}
+.rc:hover{transform:translateY(-3px);box-shadow:0 20px 40px -24px rgba(21,25,26,.25)}
+.rc img{width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;object-position:50% 35%}
+.rc .b{padding:22px 24px 26px}
+.rc .t{font-size:13px;color:var(--green-2);font-weight:500}
+.rc h3{font-size:21px;margin-top:8px}
+.rc p{margin-top:10px;font-size:15.5px;color:var(--mute);line-height:1.55}
+.more-link{margin-top:36px}
+@media (max-width:900px){.grid3{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -548,7 +567,7 @@ a.card:hover .url svg{transform:translate(2px,-2px)}
     </div>
     <a class="media-card" href="/midia/dna-empreendedor-jovem-pan/">
       <div class="thumb">
-        <img src="img/ronaldo-ternus-jovem-pan-dna-empreendedor.webp" alt="Ronaldo Ternus em entrevista ao programa DNA Empreendedor, na Jovem Pan News" loading="lazy" width="1280" height="720">
+        <img src="img/ronaldo-ternus-jovem-pan-dna-empreendedor.webp" srcset="img/ronaldo-ternus-jovem-pan-dna-empreendedor-640.webp 640w, img/ronaldo-ternus-jovem-pan-dna-empreendedor.webp 1600w" sizes="(max-width:700px) 92vw, 600px" alt="Ronaldo Ternus em entrevista ao programa DNA Empreendedor, na Jovem Pan News" loading="lazy" width="1280" height="720">
         <span class="play" aria-hidden="true"><svg><use href="#i-play"/></svg></span>
       </div>
       <div class="media-body">
@@ -565,17 +584,33 @@ a.card:hover .url svg{transform:translate(2px,-2px)}
       </div>
       <div class="talk-grid">
         <a class="talk" href="/midia/criativy-talk-ep-01-posicionamento/">
-          <div class="thumb"><img src="img/ronaldo-ternus-criativy-talk-ep01.webp" alt="Ronaldo Ternus no estúdio do Criativy Talk, episódio 1" loading="lazy" width="1280" height="720"><span class="play sm" aria-hidden="true"><svg><use href="#i-play"/></svg></span><span class="dur">1:15:31</span></div>
+          <div class="thumb"><img src="img/ronaldo-ternus-criativy-talk-ep01.webp" srcset="img/ronaldo-ternus-criativy-talk-ep01-640.webp 640w, img/ronaldo-ternus-criativy-talk-ep01.webp 1600w" sizes="(max-width:700px) 92vw, 600px" alt="Ronaldo Ternus no estúdio do Criativy Talk, episódio 1" loading="lazy" width="1280" height="720"><span class="play sm" aria-hidden="true"><svg><use href="#i-play"/></svg></span><span class="dur">1:15:31</span></div>
           <p class="src">Episódio 1</p>
-          <h4>Criativy Talk, EP 01</h4>
+          <h4>EP 01: Posicionamento</h4>
         </a>
         <a class="talk" href="/midia/criativy-talk-ep-02-gestao-do-tempo/">
-          <div class="thumb"><img src="img/ronaldo-ternus-criativy-talk-ep02.webp" alt="Ronaldo Ternus ao microfone no Criativy Talk, episódio 2" loading="lazy" width="1280" height="715"><span class="play sm" aria-hidden="true"><svg><use href="#i-play"/></svg></span><span class="dur">1:22:33</span></div>
+          <div class="thumb"><img src="img/ronaldo-ternus-criativy-talk-ep02.webp" srcset="img/ronaldo-ternus-criativy-talk-ep02-640.webp 640w, img/ronaldo-ternus-criativy-talk-ep02.webp 1600w" sizes="(max-width:700px) 92vw, 600px" alt="Ronaldo Ternus ao microfone no Criativy Talk, episódio 2" loading="lazy" width="1280" height="715"><span class="play sm" aria-hidden="true"><svg><use href="#i-play"/></svg></span><span class="dur">1:22:33</span></div>
           <p class="src">Episódio 2</p>
-          <h4>Criativy Talk, EP 02</h4>
+          <h4>EP 02: Gestão do tempo</h4>
         </a>
       </div>
     </div>
+    <p class="more-link"><a class="pill light" href="/midia/">Ver entrevistas e podcast <svg><use href="#i-arrow"/></svg></a></p>
+  </div>
+</section>
+
+<section class="sec recent" id="artigos" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Artigos</p>
+      <h2>Ideias sobre estrutura, vendas e gestão.</h2>
+    </div>
+    <div class="grid3">
+      <a class="rc" href="/artigos/no-setor-moveleiro-a-venda-comeca-depois-do-contrato/"><img src="img/ronaldo-ternus-mentoria-comercial.webp" srcset="img/ronaldo-ternus-mentoria-comercial-640.webp 640w, img/ronaldo-ternus-mentoria-comercial.webp 1125w" sizes="(max-width:900px) 92vw, 380px" alt="Ronaldo Ternus em reunião de mentoria comercial no setor moveleiro" loading="lazy" width="800" height="500"><div class="b"><span class="t">Pós-venda</span><h3>No setor moveleiro, a venda começa depois do contrato</h3><p>Por que o pós-venda decide o sucesso de lojas de móveis planejados e marcenarias, e o que precisa estar organizado entre a assinatura do contrato e a montagem.</p></div></a>
+      <a class="rc" href="/artigos/ter-agenda-nao-e-fazer-gestao-do-tempo/"><img src="img/ronaldo-ternus-treinamento-xclub.webp" srcset="img/ronaldo-ternus-treinamento-xclub-640.webp 640w, img/ronaldo-ternus-treinamento-xclub.webp 1600w" sizes="(max-width:900px) 92vw, 380px" alt="Ronaldo Ternus apresentando indicadores em treinamento para empresários" loading="lazy" width="800" height="500"><div class="b"><span class="t">Gestão</span><h3>Ter agenda não é fazer gestão do tempo</h3><p>Do empresário que só apaga incêndio ao que cronometra até o café: o caminho para organizar o tempo sem virar refém da agenda e sobrar espaço para o estratégico.</p></div></a>
+      <a class="rc" href="/artigos/voce-nao-precisa-de-mais-leads/"><img src="img/ronaldo-ternus-palestra-cultura-moveleira.webp" srcset="img/ronaldo-ternus-palestra-cultura-moveleira-640.webp 640w, img/ronaldo-ternus-palestra-cultura-moveleira.webp 1280w" sizes="(max-width:900px) 92vw, 380px" alt="Ronaldo Ternus em palestra sobre o setor moveleiro" loading="lazy" width="800" height="500"><div class="b"><span class="t">Vendas</span><h3>Você não precisa de mais leads</h3><p>Por que gerar mais leads raramente resolve a queda de vendas em lojas de móveis planejados e marcenarias, e o que fazer antes de investir em mais demanda.</p></div></a>
+    </div>
+    <p class="more-link"><a class="pill light" href="/artigos/">Ver todos os artigos <svg><use href="#i-arrow"/></svg></a></p>
   </div>
 </section>
 
@@ -587,14 +622,14 @@ a.card:hover .url svg{transform:translate(2px,-2px)}
       <p class="sec-intro">Momentos em que compartilho o que aprendi nos negócios com equipes, empresários e parceiros.</p>
     </div>
     <div class="gallery">
-      <figure class="g wide"><div class="ph"><img src="img/ronaldo-ternus-treinamento-xclub.webp" alt="Ronaldo Ternus apresentando a Formação XClub diante de um telão" loading="lazy"></div><figcaption><b>Formação XClub.</b> <span>Treinamento do IDEX sobre planejamento, negociação e desenvolvimento comercial.</span></figcaption></figure>
-      <figure class="g"><div class="ph"><img src="img/ronaldo-ternus-treinamento-em-sala.webp" alt="Ronaldo Ternus conduzindo um treinamento à mesa, com notebook" loading="lazy" style="object-position:50% 45%"></div><figcaption><b>Treinamento em sala.</b> <span>Encontros práticos com equipes comerciais.</span></figcaption></figure>
-      <figure class="g"><div class="ph"><img src="img/ronaldo-ternus-turma-xclub.webp" alt="Turma da Formação XClub reunida ao redor da mesa" loading="lazy" style="object-position:50% 45%"></div><figcaption><b>Turma XClub.</b> <span>Formação em grupo para profissionais de vendas.</span></figcaption></figure>
-      <figure class="g"><div class="ph"><img src="img/ronaldo-ternus-mentoria-comercial.webp" alt="Ronaldo Ternus explicando um conceito durante treinamento" loading="lazy" style="object-position:50% 40%"></div><figcaption><b>Mentoria comercial.</b> <span>Processo comercial, briefing e negociação.</span></figcaption></figure>
-      <figure class="g"><div class="ph"><img src="img/ronaldo-ternus-palestra-cultura-moveleira.webp" alt="Ronaldo Ternus palestrando sobre cultura moveleira" loading="lazy"></div><figcaption><b>Cultura moveleira.</b> <span>Apresentação no BNI Carvoeiro.</span></figcaption></figure>
-      <figure class="g"><div class="ph"><img src="img/ronaldo-ternus-empreendesc-2026.webp" alt="Ronaldo Ternus no estúdio do EmpreendeSC 2026" loading="lazy" style="object-position:50% 35%"></div><figcaption><b>EmpreendeSC 2026.</b> <span>Entrevista no estúdio do evento.</span></figcaption></figure>
-      <figure class="g"><div class="ph"><img src="img/ronaldo-ternus-proclass.webp" alt="Ronaldo Ternus falando ao microfone em um podcast da ProClass" loading="lazy" style="object-position:50% 30%"></div><figcaption><b>ProClass.</b> <span>Valorização para prestadores de serviço.</span></figcaption></figure>
-      <figure class="g"><div class="ph"><img src="img/ronaldo-ternus-golfe-bni.webp" alt="Ronaldo Ternus ao microfone em evento de golfe ao ar livre" loading="lazy"></div><figcaption><b>Golfe Experience BNI.</b> <span>Encontro entre grupos e cidades do BNI.</span></figcaption></figure>
+      <figure class="g wide"><div class="ph"><img src="img/ronaldo-ternus-treinamento-xclub.webp" srcset="img/ronaldo-ternus-treinamento-xclub-640.webp 640w, img/ronaldo-ternus-treinamento-xclub.webp 1600w" sizes="(max-width:700px) 92vw, 600px" alt="Ronaldo Ternus apresentando a Formação XClub diante de um telão" loading="lazy"></div><figcaption><b>Formação XClub.</b> <span>Treinamento do IDEX sobre planejamento, negociação e desenvolvimento comercial.</span></figcaption></figure>
+      <figure class="g"><div class="ph"><img src="img/ronaldo-ternus-treinamento-em-sala.webp" srcset="img/ronaldo-ternus-treinamento-em-sala-640.webp 640w, img/ronaldo-ternus-treinamento-em-sala.webp 1125w" sizes="(max-width:700px) 92vw, 600px" alt="Ronaldo Ternus conduzindo um treinamento à mesa, com notebook" loading="lazy" style="object-position:50% 45%"></div><figcaption><b>Treinamento em sala.</b> <span>Encontros práticos com equipes comerciais.</span></figcaption></figure>
+      <figure class="g"><div class="ph"><img src="img/ronaldo-ternus-turma-xclub.webp" srcset="img/ronaldo-ternus-turma-xclub-640.webp 640w, img/ronaldo-ternus-turma-xclub.webp 1125w" sizes="(max-width:700px) 92vw, 600px" alt="Turma da Formação XClub reunida ao redor da mesa" loading="lazy" style="object-position:50% 45%"></div><figcaption><b>Turma XClub.</b> <span>Formação em grupo para profissionais de vendas.</span></figcaption></figure>
+      <figure class="g"><div class="ph"><img src="img/ronaldo-ternus-mentoria-comercial.webp" srcset="img/ronaldo-ternus-mentoria-comercial-640.webp 640w, img/ronaldo-ternus-mentoria-comercial.webp 1125w" sizes="(max-width:700px) 92vw, 600px" alt="Ronaldo Ternus explicando um conceito durante treinamento" loading="lazy" style="object-position:50% 40%"></div><figcaption><b>Mentoria comercial.</b> <span>Processo comercial, briefing e negociação.</span></figcaption></figure>
+      <figure class="g"><div class="ph"><img src="img/ronaldo-ternus-palestra-cultura-moveleira.webp" srcset="img/ronaldo-ternus-palestra-cultura-moveleira-640.webp 640w, img/ronaldo-ternus-palestra-cultura-moveleira.webp 1280w" sizes="(max-width:700px) 92vw, 600px" alt="Ronaldo Ternus palestrando sobre cultura moveleira" loading="lazy"></div><figcaption><b>Cultura moveleira.</b> <span>Apresentação no BNI Carvoeiro.</span></figcaption></figure>
+      <figure class="g"><div class="ph"><img src="img/ronaldo-ternus-empreendesc-2026.webp" srcset="img/ronaldo-ternus-empreendesc-2026-640.webp 640w, img/ronaldo-ternus-empreendesc-2026.webp 1400w" sizes="(max-width:700px) 92vw, 600px" alt="Ronaldo Ternus no estúdio do EmpreendeSC 2026" loading="lazy" style="object-position:50% 35%"></div><figcaption><b>EmpreendeSC 2026.</b> <span>Entrevista no estúdio do evento.</span></figcaption></figure>
+      <figure class="g"><div class="ph"><img src="img/ronaldo-ternus-proclass.webp" srcset="img/ronaldo-ternus-proclass-640.webp 640w, img/ronaldo-ternus-proclass.webp 1125w" sizes="(max-width:700px) 92vw, 600px" alt="Ronaldo Ternus falando ao microfone em um podcast da ProClass" loading="lazy" style="object-position:50% 30%"></div><figcaption><b>ProClass.</b> <span>Valorização para prestadores de serviço.</span></figcaption></figure>
+      <figure class="g"><div class="ph"><img src="img/ronaldo-ternus-golfe-bni.webp" srcset="img/ronaldo-ternus-golfe-bni-640.webp 640w, img/ronaldo-ternus-golfe-bni.webp 1280w" sizes="(max-width:700px) 92vw, 600px" alt="Ronaldo Ternus ao microfone em evento de golfe ao ar livre" loading="lazy"></div><figcaption><b>Golfe Experience BNI.</b> <span>Encontro entre grupos e cidades do BNI.</span></figcaption></figure>
     </div>
 
     <div class="bni">

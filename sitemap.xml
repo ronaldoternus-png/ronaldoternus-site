@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://ronaldoternus.com.br/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <image:image><image:loc>https://ronaldoternus.com.br/img/ronaldo-ternus-empresario.webp</image:loc></image:image>
     <image:image><image:loc>https://ronaldoternus.com.br/img/ronaldo-ternus-treinamento-xclub.webp</image:loc></image:image>
     <image:image><image:loc>https://ronaldoternus.com.br/img/ronaldo-ternus-jovem-pan-dna-empreendedor.webp</image:loc></image:image>
@@ -65,5 +65,9 @@
     <loc>https://ronaldoternus.com.br/artigos/ter-agenda-nao-e-fazer-gestao-do-tempo/</loc>
     <lastmod>2026-11-13</lastmod>
     <image:image><image:loc>https://ronaldoternus.com.br/img/ronaldo-ternus-treinamento-xclub.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://ronaldoternus.com.br/midia/</loc>
+    <lastmod>2026-11-13</lastmod>
   </url>
 </urlset>
